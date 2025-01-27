@@ -22,15 +22,15 @@ func main(){
 // it is the best Practise to always use as local variables as possible
 
 // 2) Functions variables
-	var b string					// declare string
-	var d int 						// delcare int
-	var e bool 						// declare bool
+var b string					// declare string
+var d int 					// delcare int
+var e bool 					// declare bool
 
-	// for variable declared and not assigned a value they are "zero-typed" until the user assign a value for them 
-	// there is no unintialized variables concept in go
-		// b = ""
-		// d = 0
-		// e = false
+// for variable declared and not assigned a value they are "zero-typed" until the user assign a value for them 
+// there is no unintialized variables concept in go
+	// b = ""
+	// d = 0
+	// e = false
 
 // declare + assiging 
 	var f int = 12						
@@ -83,14 +83,12 @@ func main(){
 	z =x				
 
 // 3) block variables
-	//block variable , once block scope finished , it is destroyed, cannot be accessibile from outside block
-	if x>9 {
-		var sum = 12 // block var
-	}
+//block variable , once block scope finished , it is destroyed, cannot be accessibile from outside block
+if x>9 {
+	var sum = 12 // block var
+}
 
 // Define constant
-	const const_var = "Hi"
-
-// if we don't know type of variable expected from user 
+const const_var = "Hi"
 
 } 
