@@ -1,0 +1,47 @@
+// 
+// https://www.geeksforgeeks.org/data-types-in-go/?ref=next_article
+
+// Naming convention Variables names, Functions names, ...
+
+- Camel case 
+	studentNumbers
+- can contain letters, digits, underscores
+- can start with letter or underscore only
+- case Sensitive
+- identifiers can be used as variables names : int, uint
+	var int = "hello"
+- keywords cannot be used as variables names 25 keyword	
+	package, import, select
+	func, return
+	var, const
+	struct, map, interface, type
+	if, else
+	for, break, continue, range
+	switch, case, default
+	go, goto
+	defer, chan, fallthrough
+	
+- we can use _ as variable name -> blank identifiers
+  as we know Go Compilier -> give us error if we identified a variable and didn't use
+  we can use blank Identifier in case we must declare a variable and discard it latter without using it
+
+- we can define Exported Identifier -> we will see it later in the course when we have more than one package
+  in our project 
+  this Identifier 
+  	-> Start with Captital letter
+	-> must be declared on Package level
+  fmt.Println
+
+	
+// Data types
+4 types
+- Basic: num, string, bool
+- aggregations : array, struct
+- refernces: maps, slices, pointer, functions, channels
+- interface
+
+Basic:
+3 types
+- numb : int, float, complex
+- string
+- bool
